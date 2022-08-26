@@ -7,16 +7,24 @@
     
     
 }
+.navbar{
+    background-color: var(--background-main);
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    
+}
 .navbar-main{
     background-color: var(--background-main);
+    
 }
 .title{
     background: -webkit-linear-gradient(var(--title-color-sec), var(--title-color-first));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 3rem !important;
+    font-size: 3rem;
+    font-family: 'Aboreto';
 }
 .link{
     color: var(--link-color);
-    text-decoration: underline ;
+    text-decoration: underline;
+    font-family: 'Kanit';
 }
