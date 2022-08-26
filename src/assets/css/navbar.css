@@ -1,0 +1,22 @@
+
+:root{
+    --background-main: #60544b;
+    --title-color-first: #98b6ce;
+    --title-color-sec: #ffffff;
+    --link-color: #fdfdfd;
+    
+    
+}
+.navbar-main{
+    background-color: var(--background-main);
+}
+.title{
+    background: -webkit-linear-gradient(var(--title-color-sec), var(--title-color-first));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem !important;
+}
+.link{
+    color: var(--link-color);
+    text-decoration: underline ;
+}
