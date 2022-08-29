@@ -1,0 +1,38 @@
+.fungi-about{
+    text-align: left;
+    width: 40rem;
+    margin: 5rem auto;
+    color: white;
+}
+.mat-label{
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    
+}
+ul{
+    text-align: left;
+    list-style-type: none;
+    justify-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+li{
+    text-align: left;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-self: left;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+}
+.mat-list-item{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    
+}
