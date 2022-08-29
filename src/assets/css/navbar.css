@@ -3,28 +3,34 @@
     --background-main: #60544b;
     --title-color-first: #98b6ce;
     --title-color-sec: #ffffff;
-    --link-color: #fdfdfd;
+    --link-color: #ee8a07;
     
     
 }
 .navbar{
-    background-color: var(--background-main);
-    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    /* background-color: var(--background-main); */
+    background-image: url('../imgs/diamondPlate.png');
+    /* clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%); */
     
 }
 .navbar-main{
-    background-color: var(--background-main);
+    /* background-color: var(--background-main); */
+
     
 }
 .title{
     background: -webkit-linear-gradient(var(--title-color-sec), var(--title-color-first));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
     font-size: 3rem;
+    font-weight: bold;
     font-family: 'Aboreto';
 }
 .link{
     color: var(--link-color);
     text-decoration: underline;
     font-family: 'Kanit';
+    font-weight: 1000;
+    font-size: 1.5rem;
 }
